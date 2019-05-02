@@ -1,0 +1,32 @@
+*{
+	box-sizing: border-box;
+	}
+.bia{
+	background-color: black;
+	height: 600px;
+	width: 100%
+}
+a.menu{
+	font-size: 20px;
+	color: #867272;
+	font-weight: bolder;
+	text-decoration: none;
+	margin-left: 15px;
+}
+div.menu {
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+a.menu:hover{
+	color: #e20907;
+	font-size: 25px;
+}
+img.image {
+	max-width: 400px;
+	border: transparent 3px solid;
+}
+img.image:hover {
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 2px solid blue;
+	}
