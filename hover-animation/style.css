@@ -1,0 +1,12 @@
+#vuong {
+	width: 700px;
+	height: 1000px;
+}
+img {
+	width: calc(700/3px-20px);
+	transition: transform 1s;
+	border: 10px solid #a79c9d;
+}
+img:hover {
+	transform: scale(1.5);
+}

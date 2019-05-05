@@ -1,0 +1,12 @@
+img {
+	width: 200px;
+	animation-name: viet;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	position:relative;
+}
+@keyframes viet {
+	from{width: 200px; left: 200px; top:50px;}
+	to{width: 200px; left: 200px; top:50px;
+		transform: scale(1.5);}
+}
