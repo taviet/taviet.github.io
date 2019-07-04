@@ -1,0 +1,115 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+h1 {
+	width: 100%;
+	padding-top: 10px;
+	
+}
+p {
+	padding-top: 10px;
+	padding-bottom: 60px;
+}
+.footer-right div {
+	float: right;
+}
+.footer-right div p {
+	padding-top: 18px;
+	padding-bottom: 0px;
+}
+.footer-left  nav{
+	float: left;
+}
+.footer {
+	padding-bottom: 15px;
+}
+.headder .left {
+	float: left;
+}
+.headder .right  nav { 
+    background-color: white !important;
+	float: right;
+}
+.footer-right nav {
+    background-color: white !important;
+}
+.footer-left nav {
+	    background-color: white !important;
+}
+.space-content {
+	height: 200px;
+	background-color: #f3f3f3;
+	    justify-content: center;
+}
+.space-content h1 {
+	width: 100%;
+	    text-align: center;
+	    padding-top: 30px;
+
+}
+.space-content div {
+	 
+	border-style: solid;
+	border-color: black;
+	border-width: 0px 0px 2px 0px;
+	    margin-bottom: 80px;
+
+}
+.space-content div input {
+	border: none;
+	width: 200px;
+
+	background-color:  #f3f3f3;
+	padding: 0px;
+	margin: 0px;
+}
+.space-content div button {
+	width: 40px;
+	background-color:  #f3f3f3;	
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+.loadmore {
+	width: 100%;
+	justify-content: center;
+}
+.discription {
+	padding-bottom: 50px;
+}
+a {
+	color: #b2b1ad; 
+
+}
+.content {
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.btn {
+    width: 150px;
+    height: 70px;
+    background-color: white;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 0px;
+}
+.phai {
+	text-align: center;
+}
+.part1 {
+	padding-top: 50px;
+}
+.phai > a {
+	font-size: 40px;
+	float: left;
+	width: 100%;
+	text-align: left;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.phai nav {
+	background-color: white!important;
+}

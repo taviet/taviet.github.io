@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>demo form</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="contain">
+		<h1>Register</h1>
+		<div class="wrapper">
+			<form action="success.html" id="form-register" >
+				<input type="text" name="name" id="name" placeholder="họ tên"/><br/>
+				<div class="error"></div>
+				<input type="date" name="birthday" id="date" aria-placeholder="ngày sinh"/><br/>
+				<div class="sex-wrapper">
+					<span>Giới tính</span>
+					<div class="sex">
+						<input type="radio" name="sex" value="male" id="male"/>
+						<label for="male">Nam</label>
+					</div>
+
+					<div class="sex">
+						<input type="radio" name="sex" value="female" id="female"/><label for="female">Nữ</label>
+					</div>
+
+					<div class="sex">
+						<input type="radio" name="sex" value="other" id="other"/><label for="other">Khác</label><br/>
+					</div>
+				</div>
+				<input type="adress" name="adress" id="adress" placeholder="Địa chỉ"><br/>
+				<input type="phone" name="phone" id="phone" placeholder="Điện thoại"><br/>	
+				<div class="error"></div>
+				<input type="email" name="email" id="email" placeholder="email"><br/>
+				<input type="password" name="password" id="password" placeholder="password"><br/>
+				<div class="btn">
+					<input type="submit" name="" value="Register"/>
+					<input type="reset" name="" value="Reset"/>
+				</div>
+			</div>
+		</div>
+	</form>
+	<script>
+		$('#form-register').on('submit', validateData)
+		function validateData(){
+			let isValid= true
+			if($('#name').val().trim()===''){
+				$('#name').next('error').text('name is empty')
+				isValid = false
+			} else {
+				$('#name').next('error').text('')
+			}
+			if($('email').val().trim()===''){
+				$('#email').next('error').text('email is empty')
+				isValid = false
+			} else {
+				$('#email').next('error').text('')
+			}
+		}
+
+  </script>
+
+</body>
+</html>
