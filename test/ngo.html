@@ -2,26 +2,30 @@
 <html>
 <head>
 	<title>NGO Home page</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" type="text/css" href="ngo.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="container">
 		<div class="headder row">
 			<div class="logo col-sm-3">
-				<h1>NGO</h1>
-				<p>A Non Profit Company</p>
+				<img src="logo.png">
 			</div>
 			<div class="sologan col-sm-3">
 				<p style="text-transform: uppercase;">Let’s come together to completely eliminate poverty from bangladesh</p>
 			</div>
 			<div class="menu col-sm-6">
-				<nav class="navbar navbar-expand-lg bg-light">
+				<div class="row"><nav class="navbar navbar-expand-md bg-light">
 					<ul class="navbar-nav">
 						<li class="nav-item">
 							<a class="nav-link" href="#">HOME</a>
@@ -35,11 +39,18 @@
 						<li class="nav-item">
 							<a class="nav-link" href="#">DONATION</a>
 						</li>
-	  
+						<li class="nav-item">
+							<a class="nav-link" href="#">VOLUNTEER</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">CONTACTS</a>
+						</li>
+
 					</ul>
 
 				</nav>
-	
+			</div>
+
 		</div>
 		<div class="banner row">
 			<img src="01.png" class="col-sm-3">	
@@ -51,12 +62,12 @@
 	<div class="content">
 		<div class="content1 row">
 			<div class="col-sm-8 left">
-				<p><b>HELLO</b></p>
-				<h1 style="text-transform: uppercase;">We are a charity organization from <b style="color:  #7cb342">Bangladesh</b> &amp; you can help us in our goal</h1>
+				<h1 style="font-size: 14px;">HELLO</h1>
+				<h1 style="text-transform: uppercase; text-align: left;">We are a charity organization from <b style="color:  #7cb342">Bangladesh</b> &amp; you can help us in our goal</h1>
 				<p style="    color: #ababab;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 			</div>
 			<div class="col-sm-4 right">
-				<div class="one row">
+				<div class="one row" style="margin: 0px;">
 					<h1>DONATE NOW</h1>
 				</div>
 				<div class="two row">
@@ -65,93 +76,159 @@
 						<input type="text" class="form-control" id="name" placeholder="NAME">
 						<input type="text" class="form-control" id="email" placeholder="EMAIL">
 						<input type="text" class="form-control" id="amount" placeholder="AMOUNT">
-						<button type="button" class="btn btn-success col-sm-12">Success</button>
+						<button type="button" class="btn btn-success col-sm-12">DONATE NOW</button>
 					</div>
-					
+
 				</div>
 			</div>
 		</div>
 		<div class="content2 row">
 			<div class="col-sm-4">
-				<img src="05.png" class="col-sm-12">
-				<ul class="nav flex-column">
+				<img src="05.png">
+				<div class="help"><ul class="nav flex-column">
 					<li class="nav-item">
 						<a class="nav-link" href="#"><i class="fas fa-check-circle"></i>
 
-Help &amp; Support</a>
+						Help &amp; Support</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#"><i class="fas fa-check-circle"></i>
 
-Education</a>
+						Education</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#"><i class="fas fa-check-circle"></i>
 
-adoption</a>
+						adoption</a>
 					</li>
 				</ul>
 			</div>
-			<div class="col-sm-8 right">
-				<p><b>Our Mission</b></p>
-				<h1 style="text-transform: uppercase;">To <b>help</b> the poor and needy people and provide proper <b>education</b> to the children</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			</div>
 		</div>
-		<div class="content3 row">
-			<div class="col-sm-8 ">
-				<p>Our Activities</p>
-				<h1 style="text-transform: uppercase;">Are not very broad but we still try our best to <b>help</b> as much as we can by fulfilling <b>needs</b></h1>
-				<p style="color: #ababab;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-			</div>
-			<div class="col-sm-4 right">
-				<ul class="nav flex-column">
-					<li class="nav-item">
-						<a class="nav-link" href="#"><i class="fas fa-plus-circle"></i>
-
-Fighting Pollution</a>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#"><i class="fas fa-plus-circle"></i>
-
-Help for Food</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#"><i class="fas fa-plus-circle"></i>
-
-Collecting Funds</a>
-					</li>
-
-				</ul>
-			</div>
+		<div class="col-sm-8 right">
+			<h1 style="text-align: right; font-size: 17px">Our Mission</h1>
+			<h1 style="text-transform: uppercase; padding-bottom: 24px; text-align: right;">To <b>help</b> the poor and needy people and provide proper <b>education</b> to the children</h1>
+			<p style=" color:  #ababab;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 		</div>
-		<div class="content4 row">
-			<div class="col-sm-4">
-				<img src="06.png" class="col-sm-12">
-			</div>
-			<div class="col-sm-8">
-				<p>Our Volunteer</p>
-				<h1>Who are <b>passionate</b> about the causes that need humanity, join us if you think you’ve the quality</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				<div class="adress">
-					<p><b>Naiorpul, Sylhet</b></p>
-					<p>Toifa Furniture, P.O – 3100 <i class="fas fa-map-marker-alt"></i></p>
+	</div>
+	<div class="content3 row">
+		<div class="col-sm-8 ">
+			<p>Our Activities</p>
+			<h1 style="text-transform: uppercase;">Are not very broad but we still try our best to <b>help</b> as much as we can by fulfilling <b>needs</b></h1>
+			<p style="color: #ababab;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+		<div class="col-sm-4 right">
+			<div class="row">
+				<div class="item1 col-sm-12">
+					<a class="nav-link" href="#" style="font-size: 24px"><i class="fas fa-plus-circle" style="font-size: 24px;"></i>
 
-
-					<p><b>Kazitulla, Sylhet</b></p>
-					<p>10250 Constellation Blvd, 90067  <i class="fas fa-map-marker-alt"></i></p>
-
+					Fighting Pollution</a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
-				<button type="button" class="btn btn-success">Join us</button>
+				<div class="item2 col-sm-12">
+					<a class="nav-link" href="#"><i class="fas fa-plus-circle"></i>
+
+					Help for Food</a>
+				</div>
+				<div class="item3 col-sm-12" >
+					<a class="nav-link" href="#"><i class="fas fa-plus-circle"></i>
+
+					Collecting Funds</a>
+				</div>
+
 			</div>
 		</div>
 	</div>
-	<div class="footter">
-		<p>copyright <i class="far fa-copyright"></i>
+	<div class="content4 row">
+		<div class="col-sm-4 left">
+			<img src="06.png">
+			<div class="friend"><ul class="nav flex-column">
+				<li class="nav-item">
+					<a class="nav-link" href="#"><i class="fas fa-check-circle" style="padding-top: 20px;"></i>
 
-		2018. All rights reserved     |     Designed by – Brood Designer </p>
+					Friendly</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"><i class="fas fa-check-circle"></i>
+
+					Open Minded</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"><i class="fas fa-check-circle"></i>
+
+					Responsible</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"><i class="fas fa-check-circle" style="padding-bottom: 20px"></i>
+
+					Caring</a>
+				</li>
+			</ul>
+		</div>
 	</div>
+	<div class="col-sm-8 right">
+		<h1 style="font-size:17px;text-align: right; ">Our Volunteer</h1>
+		<h1 style="text-transform: uppercase; font-size: 34px; padding-bottom: 30px;">Who are <b>passionate</b> about the causes that need humanity, join us if you think you’ve the quality</h1>
+		<p style="color: #ababab;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<div class="adress">
+			<h1 style="font-size: 18px; font-weight: 430;">Naiorpul, Sylhet</h1>
+			<h1 style="font-size: 18px; font-weight: 300; padding-bottom: 30px;">Toifa Furniture, P.O – 3100 <i class="fas fa-map-marker-alt"></i></h1>
+
+
+			<h1 style="font-size: 18px; font-weight: 430;">Kazitulla, Sylhet</h1>
+			<h1 style="font-size: 18px; font-weight: 300; padding-bottom: 30px;">10250 Constellation Blvd, 90067  <i class="fas fa-map-marker-alt"></i></h1>
+
+		</div>
+		<button type="button" class="btn btn-success" style="border-radius: 2px; width: 200px;">Join us</button>
+	</div>
+</div>
+</div>
+<div class="content5 row">
+	<div class="comment row"><div id="demo" class="carousel slide col-sm-12" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#demo" data-slide-to="0" class="active">abc</li>
+			<li data-target="#demo" data-slide-to="1">abc</li>
+			<li data-target="#demo" data-slide-to="2">abc</li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="cmt">
+					<img src="Object.png">
+					<p>They’ve a clear vision and this is what I liked about them most. They’re also very transparent with their action which makes me believe them.</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="cmt">
+					<img src="Object.png">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="cmt">
+					<img src="Object.png">
+					<p> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				</div>
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#demo" data-slide="prev">
+			<i class="fas fa-arrow-right" style="font-size: 30px;s"></i>
+
+
+		</a>
+		<a class="carousel-control-next" href="#demo" data-slide="next">
+			<i class="fas fa-arrow-right" style="font-size: 30px;"></i>
+
+
+		</a>
+	</div>
+		<img src="Group.png" >
+</div>
+
+</div>
+<div class="footter">
+	<p>copyright <i class="far fa-copyright"></i>
+
+	2018. All rights reserved     |     Designed by – Brood Designer </p>
+</div>
 
 
 
@@ -162,9 +239,8 @@ Collecting Funds</a>
 
 
 <script src="https://kit.fontawesome.com/2c47e24cf0.js"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
