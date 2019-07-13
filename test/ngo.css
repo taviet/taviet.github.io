@@ -1,0 +1,121 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.headder {
+	margin-top: 10px;
+	background-color: #7cb342;
+	padding-top: 20px;
+}
+.headder .logo h1 {
+	font-weight: 800;
+	padding: 0px;
+}
+.headder .logo {
+	text-align: center;
+
+}
+.headder .sologan p { 
+	font-size: 12px;
+	text-align: center;
+	padding: 0px;
+}
+.footter {
+	background-color: #7cb342;
+	margin-bottom: 10px;
+	padding: 15px;
+	text-align: center;
+}
+
+button {
+	background-color: #7cb342;
+}
+.btn-success {
+    color: #fff;
+    background-color: #7cb342;
+    border-color: #7cb342
+}
+
+.menu {
+	padding: 0px;
+}
+
+.banner img{
+	padding: 0px;
+
+}
+.banner {
+		margin-left: 0px;
+	margin-right: 0px;
+}
+.menu > nav{
+margin: 30px
+}
+.content {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 50px;
+}
+.content1 .left p, h1{
+	text-align: left;
+}
+.one {
+	background-color: #7cb342;
+	padding: 15px;
+}
+.one h1 {
+	font-size: 24px;
+	color: white;
+}
+.two {
+	padding: 15px;
+}
+.two input {
+margin: 10px;
+}
+.two button {
+	background-color: #7cb342;
+}
+.content2 {
+	padding-top: 60px;
+}
+b,a {
+	color: #7cb342;
+}
+.content2 .right {
+text-align: right;
+}
+.content2 .right p b {
+	color: black;
+}
+
+.content2 .right p {
+	color: #ababab;
+}
+.content3 {
+	padding-top: 60px;
+}
+.content3 .right li p {
+	padding-left: 20px;
+}
+.content4 {
+	padding-top: 60px;	
+	text-align: right;
+}
+.content4 p b {
+	padding-right: 20px;
+	color: #2c2c2c;
+}
+.content i {
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #7cb342;
+}
+.content4 b {
+	padding-top: 10px;
+
+}
+.content4 p {
+	padding-bottom: 10px;
+}
