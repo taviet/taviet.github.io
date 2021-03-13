@@ -1,0 +1,110 @@
+.cal {
+  height: 700px;
+  width: 400px;
+  possition: absolute;
+  margin: auto;
+  background-color: #c8cccc;
+  border-radius: 20px;
+  padding: 10px;
+ 
+}
+.row4 {
+  height: 130px;
+}
+.row4 button{
+  text-align: center;
+  color: red;
+  width: 100%;
+  font-size: 25px;
+  height: 40px;
+  margin-bottom: 5px;
+  
+}
+.row4 img {
+  left: 100px;
+    position: relative;
+ 
+}
+button {
+  display: block;
+  height: 50px;
+  border-radius: 10px;
+  font-weight: bold;
+  
+}
+.row2 button:hover {
+  background-color: white;
+}
+.row1 button:hover {
+  background-color: #c8cccc;
+}
+.row3 {
+  height: 100px;
+  background-color: #cae0d1;
+  margin-bottom: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 20px;
+}
+.row3 p {
+  float: right;
+  font-size: 30px;
+  margin-right: 20px;
+}
+.row1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+}
+.row1 button {
+  width: calc(308px/5);
+  background-color: #eaeaf1;
+}
+.row2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  margin-bottom: 15px;
+  border-top: 1px solid black;
+  padding-top: 10px;
+}
+.row2 button {
+  width: calc(330px/6);
+}
+#DEL {
+  background-color: red;
+  color: white;
+}
+
+#AC {
+  background-color: blue;
+  color: white; 
+}
+#result {
+  grid-column: 4/6;
+  width: calc(308px/5*2 + 24px );
+  font-size: 30px;
+}
+#addition, #mutil, #dev {
+  font-size: 25px;
+}
+#subtraction {
+    font-size: 35px;
+}
+.theme1 .cal {
+    background-color: #c8cccc;
+}
+.them1 .row3 {
+    background-color: #cae0d1;
+}
+.theme2 .cal{
+  background-color: #cae0d1;
+}
+.theme2 .row3 {
+      background-color: #c8cccc;
+}
+.theme2 button {
+  background-color: #b8b8f5;
+}
